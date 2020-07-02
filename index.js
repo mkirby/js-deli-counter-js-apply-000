@@ -41,3 +41,17 @@ function currentLine(currentLine) {
   }
   return announcement;
 }
+
+//save customer count 
+//increment the count of customers served
+//
+let customerCount = 0;
+
+function ticketWheel() {
+  customerCount++;
+  console.log(`Welcome! Your ticket number is ${customerCount}`);
+}
+
+ticketWheel();
+ticketWheel();
+ticketWheel();
